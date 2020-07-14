@@ -32,7 +32,7 @@ We will also introduce you to [**NLTK**](https://www.nltk.org/) (Natural Languag
 
 # 2. Preprocessing for NLP
 
-We will be working with a dataset which includes both **satirical** (The Onion) and real news articles. 
+We will be working with a dataset which includes both **satirical** (The Onion) and real news (Reuters) articles. 
 
 We refer to the entire set of articles as the **corpus**.  
 
@@ -121,11 +121,6 @@ Luckily, NLTK has lists of stopwords ready for our use.
 Let's see which stopwords are present in our first document.
 
 Let's also use the **FreqDist** tool to look at the makeup of our text before and after removal
-
-
-```python
-manual_cleanup = [token for token in manual_cleanup if token not in stopwords.words('english')]
-```
 
 
 ```python
