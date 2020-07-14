@@ -1,7 +1,7 @@
 
 # Agenda today:
 1. Overview of NLP
-2. Pre-Prosessing for NLP 
+2. Pre-Processing for NLP 
     - Tokenization
     - Stopwords removal
     - Lexicon normalization: lemmatization and stemming
