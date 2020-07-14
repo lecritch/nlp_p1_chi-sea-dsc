@@ -57,7 +57,7 @@ We will also introduce you to [**NLTK**](https://www.nltk.org/) (Natural Languag
 # conda install -c anaconda nltk
 ```
 
-We will be working with a dataset which includes both **satirical** (The Onion) and real news articles. 
+We will be working with a dataset which includes both **satirical** (The Onion) and real news (Reuters) articles. 
 
 We refer to the entire set of articles as the **corpus**.  
 
@@ -306,13 +306,7 @@ fdist.plot(30)
 
 
 ```python
-print(f'''{one_random_student(mccalister)}, 
-      remove all stopwords from our first document using a LC''')
-```
-
-
-```python
-#Code
+manual_cleanup = [token for token in manual_cleanup if token not in stopwords.words('english')]
 ```
 
 
